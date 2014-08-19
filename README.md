@@ -1,10 +1,8 @@
-# ACF Field Type Template
+# ACF Post Type Chooser Field
 
-Welcome to the Advanced Custom Fields field type template repository.
-Here you will find a starter-kit for creating a new ACF field type. This start-kit will work as a normal WP plugin.
+Display all Post Types
 
-For more information about creating a new field type, please read the following article:
-http://www.advancedcustomfields.com/resources/tutorials/creating-a-new-field-type/
+-----------------------
 
 ### Structure
 
@@ -15,14 +13,6 @@ http://www.advancedcustomfields.com/resources/tutorials/creating-a-new-field-typ
 * `acf-post-type-chooser.php`: Main plugin file that includes the correct field file based on the ACF version
 * `post-type-chooser-v5.php`: Field class compatible with ACF version 5 
 * `readme.txt`: WordPress readme file to be used by the wordpress repository
-
------------------------
-
-# ACF Post Type Chooser Field
-
-Display all Post Types
-
------------------------
 
 ### Compatibility
 

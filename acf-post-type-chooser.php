@@ -2,11 +2,11 @@
 
 /*
 Plugin Name: Advanced Custom Fields: Post Type Chooser
-Plugin URI: http://navid.kashani.ir/
-Description: DESCRIPTION
+Plugin URI: https://github.com/reyhoun/acf-post-type-chooser
+Description: Display all Post Types
 Version: 1.0.0
-Author: Navid Kashani
-Author URI: http://navid.kashani.ir/
+Author: Reyhoun
+Author URI: http://reyhoun.com/
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
