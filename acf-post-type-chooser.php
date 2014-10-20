@@ -4,7 +4,7 @@
 Plugin Name: Advanced Custom Fields: Post Type Chooser
 Plugin URI: https://github.com/reyhoun/acf-post-type-chooser
 Description: Display all Post Types
-Version: 1.0.0
+Version: 1.0.1
 Author: Reyhoun
 Author URI: http://reyhoun.com/
 License: GPLv2 or later

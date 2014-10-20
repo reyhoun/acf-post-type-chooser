@@ -152,6 +152,8 @@ class acf_field_post_type_chooser extends acf_field {
 	*/
 
     function render_field( $field ) {
+
+
         // convert value to array
         $field['value'] = acf_force_type_array($field['value']);
 
@@ -255,7 +257,7 @@ class acf_field_post_type_chooser extends acf_field {
 
                         foreach( $v as $k2 => $v2 ) {
 
-                            $els[] = array( 'type' => 'option', 'value' => $k2, 'label' => $v2, 'selected' => in_array($k2, $field['value']) );
+                            $els[] = array( 'type' => 'option', 'value' => $v2, 'label' => $v2, 'selected' => in_array($v2, $field['value']) );
 
                             $choices[] = $k2;
                         }
@@ -266,7 +268,7 @@ class acf_field_post_type_chooser extends acf_field {
 
                 } else {
 
-                    $els[] = array( 'type' => 'option', 'value' => $k, 'label' => $v, 'selected' => in_array($k, $field['value']) );
+                    $els[] = array( 'type' => 'option', 'value' => $v, 'label' => $v, 'selected' => in_array($v, $field['value']) );
 
                     $choices[] = $k;
 
