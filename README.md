@@ -25,11 +25,3 @@ This ACF field type is compatible with:
 2. Activate the Post Type Chooser plugin via the plugins admin page
 3. Create a new field via ACF and select the Post Type Chooser type
 4. Please refer to the description for more info regarding the field type settings
-
-### Changelog
-
-## 1.0.1 ##
-* Bug fix: return value
-
-## 1.0.0 ##
-* Initial Release.

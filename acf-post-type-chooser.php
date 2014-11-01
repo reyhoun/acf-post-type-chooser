@@ -1,14 +1,16 @@
 <?php
 
 /*
-Plugin Name: Advanced Custom Fields: Post Type Chooser
-Plugin URI: https://github.com/reyhoun/acf-post-type-chooser
-Description: Display all Post Types
-Version: 1.0.1
-Author: Reyhoun
-Author URI: http://reyhoun.com/
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Plugin Name: Advanced Custom Fields: Post Type Chooser
+ * Plugin URI: https://github.com/reyhoun/acf-post-type-chooser
+ * Description: Display all Post Types
+ * Version: 1.1.0
+ * Author: Reyhoun
+ * Author URI: http://reyhoun.com/
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * GitHub Plugin URI: https://github.com/reyhoun/acf-post-type-chooser
+ * GitHub Branch:     master
 */
 
 
@@ -30,6 +32,5 @@ function include_field_types_post_type_chooser( $version ) {
 }
 
 add_action('acf/include_field_types', 'include_field_types_post_type_chooser');	
-
 
 ?>
